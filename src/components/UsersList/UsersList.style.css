@@ -1,0 +1,79 @@
+.usersList-container {
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: scroll;
+  background-image: url("../Assets/crud-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.usersList-container_ul {
+  overflow: auto;
+  list-style: none;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.usersList-container_ul-li__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.usersList-container_ul-li {
+  width: 95%;
+  background-color: #e0e0e0;
+  list-style: none;
+  border-radius: 10px;
+  margin: 15px auto;
+  padding: 10px;
+  display: flex;
+}
+
+.usersList-container_ul-li .usersList-container_ul-li__info {
+  width: 350%;
+}
+
+.usersList-container_ul-li ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.delete-button {
+  margin: 3px;
+  color: #ff0000;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+}
+
+.edit-button {
+  margin: 3px;
+  color: #cf7500;
+}
+
+.edit-button:hover {
+  cursor: pointer;
+}
+
+.email {
+  font-size: small;
+  color: #334756;
+}
+
+.birthday-container {
+  display: flex;
+  align-items: center;
+}
+
+.birthday-icon {
+  font-size: x-small;
+  margin-right: 2px;
+  color: #6a097d;
+}
+
+.birthday {
+  font-size: small;
+}
